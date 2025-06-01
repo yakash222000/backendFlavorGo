@@ -19,7 +19,7 @@ public class Food {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    
+
     private String name;
     private String description;
     private Long price;
@@ -48,5 +48,5 @@ public class Food {
     private Date creationDate;
 
 
-    
+
 }
